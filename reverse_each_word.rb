@@ -4,4 +4,3 @@ def reverse_each_word(str)
     |x| x.reverse}.join(' ')
   end
 end
-
