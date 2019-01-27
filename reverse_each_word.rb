@@ -1,13 +1,7 @@
-x = "Hello there my friend."
 
-def reverse_each_word(sentence1)
-  sentence2 = ""
-  array = sentence1.split(" ")
-  array.collect do |y|
-    puts y.reverse!
-
+def reverse_each_word(str)
+  str.split.collect do
+    |x| x.reverse}.join(' ')
   end
-
 end
 
-reverse_each_word(x)
